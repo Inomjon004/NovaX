@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaX</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="stars">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+    <div class="top">
+
+        <div class="profile">
+            👤 Guest
+        </div>
+
+        <div class="level">
+            ⭐ Lv.<span id="level">1</span>
+        </div>
+
+    </div>
+
+    <div class="energyBox">
+
+        <div class="energyText">
+            ❤️ <span id="energy">100</span>/100
+        </div>
+
+        <div class="bar">
+            <div id="energyBar"></div>
+        </div>
+<div class="xpBox">
+
+    <div class="xpText">
+        ⭐ XP <span id="xpValue">0</span>/100
+    </div>
+
+    <div class="bar">
+
+        <div id="xpBar"></div>
+
+    </div>
+
+</div>
+    </div>
+
+    <div class="center">
+
+        <h1>🚀 NovaX</h1>
+
+        <div class="balance">
+            💰 <span id="coins">0</span> NOVA
+        </div>
+
+        <div id="coin" class="coin">
+    <img src="images/coin.png" alt="Coin">
+</div>
+        </div>
+
+        <p>Tap to Earn</p>
+
+    </div>
+<div id="boostPage" style="display:none;padding:20px;">
+
+<h2>🚀 Boost Shop</h2>
+
+<div class="boostCard">
+<h3>⚡ Power Tap</h3>
+<p>Har bosishda +2 NOVA</p>
+<button id="buyPower">100 NOVA</button>
+</div>
+
+<div class="boostCard">
+<h3>🔥 Super Tap</h3>
+<p>Har bosishda +5 NOVA</p>
+<button id="buySuper">500 NOVA</button>
+</div>
+
+<div class="boostCard">
+<h3>🤖 Auto Tap</h3>
+<p>Har soniyada +1 NOVA</p>
+<button id="buyAuto">1000 NOVA</button>
+</div>
+
+</div>
+
+</div>
+<div id="tasksPage" style="display:none; padding:20px;">
+
+    <h2>🎁 Daily Tasks</h2>
+
+    <div class="boostCard">
+
+        <h3>📢 Join Telegram</h3>
+
+        <p>Mukofot: +100 NOVA</p>
+
+        <button id="taskTelegram">
+            Claim Reward
+        </button>
+
+    </div>
+
+</div>
+
+</div>
+<div id="friendsPage" style="display:none; padding:20px;">
+
+    <h2>👥 Friends</h2>
+
+    <br>
+
+    <p>Sening referral koding:</p>
+
+    <h3 id="refCode">NOVAX123</h3>
+
+    <br>
+
+    <button id="copyRef">
+        🔗 Copy Link
+    </button>
+
+    <br><br>
+
+    <p>Taklif qilingan do'stlar:</p>
+
+    <h3>
+        <span id="friendsCount">0</span> 👥
+    </h3>
+
+    <p>
+        Bonus: <span id="refBonus">0</span> NOVA
+    </p>
+
+</div>
+
+</div>
+
+<div id="profilePage" style="display:none; padding:20px;">
+
+    <h2>👤 Profile</h2>
+
+    <div class="profileCard">
+
+        <img id="profileAvatar" class="avatar">
+
+        <h3>👤 <span id="profileName">Guest</span></h3>
+
+        <p>⭐ Level: <span id="profileLevel">1</span></p>
+
+        <p>⚡ XP: <span id="profileXP">0</span>/100</p>
+
+        <p>💰 Balance: <span id="profileCoins">0</span> NOVA</p>
+
+        <p>👥 Friends: <span id="profileFriends">0</span></p>
+
+        <p>🚀 Tap Power: <span id="profilePower">1</span></p>
+
+    </div>
+
+</div>
+
+    </div>
+
+</div>
+
+</div>
+    <div class="bottom">
+
+    <div id="homeBtn">🏠<br>Home</div>
+
+    <div id="boostBtn">🚀<br>Boost</div>
+
+    <div id="tasksBtn">🎁<br>Tasks</div>
+
+    <div id="friendsBtn">👥<br>Friends</div>
+
+    <div id="profileBtn">👤<br>Profile</div>
+
+</div>
+
+    </div>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="js/script.js"></script>
+<script src="js/pages.js"></script>
+<script src="js/boost.js"></script>
+<script src="js/level.js"></script>
+<script src="js/tasks.js"></script>
+<script src="js/daily.js"></script>
+<script src="js/referral.js"></script>
+<script src="js/profile.js"></script>
+</body>
+</html>
